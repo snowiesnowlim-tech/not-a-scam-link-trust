@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3d1d9; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+#card {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+}
+
+#catImg {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* This keeps them side-by-side */
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+#yesBtn {
+    background-color: #ef5a78; 
+    color: white;
+}
+
+#noBtn {
+    background-color: #e0e0e0; 
+    color: #4a4a4a;
+    position: relative; /* Starts next to Yes */
+}
+
+#bottomText {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
